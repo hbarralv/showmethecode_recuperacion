@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>Signup</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" 
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>    
+</head>
+<body style="background-color: gray;">
+  <div class="p-5 text-center">
+      <div class="mask">
+        <div>
+          <form id="signup-form" class="d-grid gap-3" method="post">
+          <br>
+          <h2 class="mb-3">Registro de nuevo usuario</h2> 
+          <br>
+            <div class="section">
+              <label for="inputName" class="col-form-label" style="font-size: 20px; font-weight: bold">Nombre</label>
+              <input type="text" id="inputName" name="name" class="form-control" aria-describedby="nameHelpInline">
+            </div>
+            <br>
+            <div class="section">
+              <label for="inputEmail" class="col-form-label" style="font-size: 20px; font-weight: bold">Email</label>
+              <input type="email" id="inputEmail" name="email" class="form-control" aria-describedby="emailHelpInline">
+            </div>
+            <br>
+            <div class="section">
+              <label for="inputPassword" class="col-form-label" style="font-size: 20px; font-weight: bold">Contraseña</label>
+              <input type="password" id="inputPassword" name="password" class="form-control" aria-describedby="passwordHelpInline">
+            </div>
+            <br>
+            <div class="section">
+              <label for="formFile" class="form-label" style="font-size: 20px; font-weight: bold">Subir tu avatar</label>
+              <input class="form-control" type="file" name="image" id="formFile" style="height:45px;">
+            </div>
+            <br>   
+            <div class="section">
+              <button type="submit" style="margin-top:center;"><b>REGISTER</b></button>                          
+            </div> 
+            <br>                                       
+          </form>                    
+        </div>
+      </div>
+    </div>
+</body>
+<footer><script type="text/javascript" src="./signup.js"></script></footer>
+</html>

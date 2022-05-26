@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link href="./room.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>    
+  </head>
+  <body style="background-color: gray;">
+  <!--HEADER-->
+    <div class="header">
+      <div class="game-name">
+        Show Me The Code!
+      </div>
+      <div class="flex">
+        <div class="user-name-header"></div>
+        <div class="user-action"></div>
+      </div>
+    </div>
+  <!---->
+  <!--PARTE 1-->
+      <div class="flex-container" style="background-color: dimgrey;">
+        <div class="container text-center">
+            <br>
+            <h3>Jugador:</h3>
+            <span class="user-name" style="font-size: 30px; font-weight: bold"></span>
+          <br>
+        </div>
+        <div class="user-logo-container" style="width: 120px; height: 120px; position: relative; left: 46.2%;">
+          <img draggable="true" class="user-logo img-thumbnail" >
+        </div>
+        <br>
+      </div>
+  <!---->
+  <!--PARTE 2-->
+      <div class="flex flex-3 rooms-section">
+        <div class="container">
+          <div class="rooms-header">
+            <h3>Salas</h3>
+            <span>Ingresa a una sala para comenzar a jugar.</span>
+          </div>
+          <div class="rooms-container d-grid gap-5">
+            <div class="row">
+              <div class="col-4">
+                <h5>Sala</h5>
+              </div>
+              <div class="col-4">
+                <h5>Jugadores</h5>
+              </div>
+              <div class="col-4">
+                <h5>Estado</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!---->
+  </body>
+  <footer>
+    <script type="text/javascript" src="./room.js"></script>
+  </footer>
+</html>
